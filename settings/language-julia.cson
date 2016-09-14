@@ -1,6 +1,7 @@
 ".source.julia":
   editor:
     commentStart: "# "
+    nonWordCharacters: "/\()\"':,.;<>~!@#$%^&*|+=[]{}`?-…≥≤≠∈∉∋∌⊆⊈⊊∩∪÷⋅×√∛"
 ".source.julia:not(.string)":
   editor:
     increaseIndentPattern: "(if|while|for|function|stagedfunction|macro|immutable|type|let|quote|try|begin|.*\\)\\s*do|else|elseif|catch|finally)\\b(?!.*\\bend\\b[^\\]]*$).*$"
